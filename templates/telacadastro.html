@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <section class="area-cadastro">
+        <div class="cadastro">
+            <div>
+                <img src="https://i.pinimg.com/564x/8e/96/d0/8e96d091bd8b9e85f06d3063bb707717.jpg">
+            </div>
+            <form method="post">
+                <input type="text" name="nome" placeholder="username" value="{{ request.form['nome'] }}" autofocus>
+                <input type="text" name="email" placeholder="email" value="{{ request.form['email'] }}">
+                <input type="password" name="senha" placeholder="password" value="{{ request.form['senha'] }}">
+                <input id="buttonn" type="submit" value="cadastrar">
+            </form>
+            <p>already have an account?<a href="{{ url_for('login') }}">Log in</a></p>
+        </div>
+
+{% endblock %}

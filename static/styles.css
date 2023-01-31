@@ -1,0 +1,114 @@
+body{
+    background-color: #024059;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.area-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width: 355px;
+    height: auto;
+    padding: 35px;
+    box-shadow: 40px 50px 30px rgba(0, 0, 0, 0.280);
+}
+.login form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.login input{
+    width: 95%;
+    margin-top: 10px;
+    background-color: #6B98BF;
+    color: aliceblue;
+    padding-left: 10px;
+    border: none;
+    height: 35px;
+    outline: none;
+    border-radius: 8px;
+    font-size: 14px;
+}
+img{
+    width: 70px;
+    height: auto;
+    border-radius: 10px;
+}
+input::placeholder{
+    color: aliceblue;
+}
+#button{
+    width: 98%;
+    text-shadow: -10px 5px 10px rgba(0, 0, 0, 0.573);
+}
+.area-cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    align-items: center;
+}
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width: 355px;
+    height: auto;
+    padding: 35px;
+}
+.cadastro form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.cadastro input{
+    margin-top: 10px;
+    background-color: #6B98BF;
+    color: aliceblue;
+    padding-left: 10px;
+    border: none;
+    height: 35px;
+    outline: none;
+    border-radius: 8px;
+}
+#buttonn:hover{
+    background-color: #308C7B;
+}
+.alert {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 5px;
+    color: #970020;
+    background: rgb(230,212,212);
+    background: linear-gradient(90deg, rgba(230,212,212,1) 8%, rgba(211,146,177,1) 51%, rgba(235,194,198,1) 86%);
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+nav a{
+    margin-left: 10px;
+    color: aliceblue;
+    position: relative;
+    text-decoration: none;
+}
+nav a:hover{
+    color:blueviolet;
+}

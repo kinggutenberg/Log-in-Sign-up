@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <section class="area-login">
+        <div class="login">
+            <div>
+                <img src="https://i.pinimg.com/564x/8e/96/d0/8e96d091bd8b9e85f06d3063bb707717.jpg">
+            </div>
+            <form method="post">
+                <input type="text" name="email" placeholder="email" autofocus>
+                <input type="password" name="senha" placeholder="your password">
+                <input id="button" type="submit" value="entrar">
+            </form>
+            <p>don't have an account yet?<a href="{{ url_for('cadastro') }}">create account</a></p>
+        </div>
+    </section>
+
+{% endblock %}
